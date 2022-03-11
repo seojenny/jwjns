@@ -1,5 +1,3 @@
-By Jenny
-
 guests = {'1001':'Sarah', '1002':'Rucy', '1003':'Jessy', '1004':'Minsu', '1005':'jihye'}
 
 appetizers = {'1001':'Salmon Salad', '1002':'Seafood Salad', '1003':'Potato Soup'} 
