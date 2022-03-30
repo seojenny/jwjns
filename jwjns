@@ -1,5 +1,4 @@
 guests = {'1001':'Sarah', '1002':'Rucy', '1003':'Jessy', '1004':'Minsu', '1005':'jihye'}
-
 appetizers = {'1001':'Salmon Salad', '1002':'Seafood Salad', '1003':'Potato Soup'} 
 main_courses = {'2001':'Hawaiian Pizza', '2002':'Teriyaki Chicken','2003':'Pork Steak'} 
 desserts = {'3001':'Cookie and Cream cake', '30002':'Strawberry Icecream', '3003':'Fruit Smoothie'}
@@ -51,7 +50,7 @@ order.update(select_food ('Desserts', desserts))
 
 #Validate the delivery time
 validtime = False
-timeformat = "%H:%M"
+timeformat = "H:M"
 while not validtime:
     delivery_time = input("delivery time (hh:mm): ")
     try:
