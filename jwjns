@@ -6,7 +6,7 @@ desserts = {'3001':'Cookie and Cream cake', '30002':'Strawberry Icecream', '3003
 #Dictionary with the customer's order
 order = {}
 
-#check if the room has been registered
+#check if the room is registered
 while room not in guests.keys():
     room = input('your room number: ')
     #check if room exists
@@ -20,7 +20,7 @@ while room not in guests.keys():
             room = None
             
     else:
-        print (f'Room {room} has not been registered.')
+        print (f'Room {room} is not registered.')
         
 
 def select_food (food_type, food_dict):
