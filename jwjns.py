@@ -6,6 +6,7 @@ desserts = {'3001':'Cookie and Cream cake', '30002':'Strawberry Icecream', '3003
 #Dictionary with the customer's order
 order = {}
 
+room = None
 #check if the room is registered
 while room not in guests.keys():
     room = input('your room number: ')
@@ -16,8 +17,8 @@ while room not in guests.keys():
         #Check if the room and guest name match
         
     if guests[room] != name:
-    print ('Your name does not exist.')
-            room = None
+        print ('Your name does not exist.')
+        room = None
             
     else:
         print (f'Room {room} is not registered.')
